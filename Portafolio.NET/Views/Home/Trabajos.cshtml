@@ -1,0 +1,24 @@
+﻿@using Portafolio.Models;
+
+@model HomeIndexViewModel
+
+@{
+    ViewData["Title"] = "Trabajos desarrollados";
+}
+
+<!-- proyects section -->
+<section class="py-5 border-buttom">
+    <div class="container">
+        <partial name="_Proyectos" />
+    </div>
+</section>
+
+<!-- call to action -->
+<section class="py-5 bg-light">
+    <div class="container px-5 my-5">
+        <h2 class="display-4 fw-bolder mb-4">Let's build something together</h2>
+        <a class="btn btn-lg btn-primary" href="#!">Contact us</a>
+    </div>
+</section>
+
+<partial name="_Footer" />
